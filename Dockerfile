@@ -10,6 +10,9 @@ RUN npm run production
 
 RUN git clone https://github.com/wpdmitry/progress
 RUN git clone https://github.com/wpdmitry/test
+RUN cd test
+RUN git checkout dev
+RUN cd ..
 
 EXPOSE 8000
 
