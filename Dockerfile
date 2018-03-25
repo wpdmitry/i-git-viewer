@@ -8,8 +8,8 @@ COPY . .
 
 RUN npm run production
 
-RUN git clone https://github.com/jquery/jquery
-RUN git clone https://github.com/facebook/react
+RUN git clone https://github.com/wpdmitry/progress
+RUN git clone https://github.com/wpdmitry/test
 
 EXPOSE 8000
 

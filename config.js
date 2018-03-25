@@ -1,5 +1,5 @@
 const config = {
-  paths: [__dirname + '/jquery', __dirname + '/react'],
+  paths: [__dirname + '/test', __dirname + '/progress'],
   host: 'localhost',
   port: 8000,
 };
