@@ -7,6 +7,7 @@ RUN npm install
 COPY . .
 
 RUN tar -xf repo1.tar
+RUN tar -xf repo2.tar
 
 RUN npm run production
 
