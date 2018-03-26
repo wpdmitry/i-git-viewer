@@ -6,10 +6,9 @@ COPY package*.json ./
 RUN npm install
 COPY . .
 
-RUN npm run production
+RUN tar -xf repo1.tar
 
-RUN git clone https://github.com/wpdmitry/progress
-RUN git clone https://github.com/wpdmitry/test
+RUN npm run production
 
 EXPOSE 8000
 

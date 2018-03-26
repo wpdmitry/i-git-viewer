@@ -1,5 +1,5 @@
 const config = {
-  paths: [__dirname + '/test', __dirname + '/progress'],
+  paths: [__dirname + '/test'],
   host: 'localhost',
   port: 8000,
 };
