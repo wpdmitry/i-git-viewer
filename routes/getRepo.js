@@ -6,7 +6,7 @@ module.exports = (middleware, gitRepos) => {
 
         middleware['repo'] = repo;
         middleware['currentGitRepo'] = currentGitRepo;
-        console.log(middleware);
+
         next();
     };
 };
